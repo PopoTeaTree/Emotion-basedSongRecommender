@@ -1,8 +1,9 @@
-love : [
+emotion : love
 like
 mma
-]
-relaxed : [
+==END==
+
+emotion : relaxed
 calm
 at ease
 comfortable
@@ -57,8 +58,9 @@ placid
 clear
 stoic
 aligned
-]
-jealous : [
+==END==
+
+emotion : jealous
 anxious
 apprehensive
 attentive
@@ -88,15 +90,17 @@ disrespect
 persistently jealous
 possessive
 resentful
-]
-lively : [
+==END==
+
+emotion : lively
 love
 live
 do
 want
 wait
-]
-happy : [
+==END==
+
+emotion : happy
 dance
 happy
 enjoy
@@ -162,8 +166,9 @@ vibrant
 colorful
 beautiful
 glowing
-]
-sad : [
+==END==
+
+emotion : sad
 alone
 lie
 deadly
@@ -206,19 +211,17 @@ dismal
 pain
 hurt
 world-weary
-]
-tree : [
-fdfd
-fdfd
-]
-lol : [
+==END==
+
+emotion : lol
 --
 point
 laugh
 ha
 lol
-]
-angry : [
+==END==
+
+emotion : angry
 crazy
 mad
 ordeal
@@ -292,8 +295,9 @@ dejected
 vilified
 unjustified
 violated
-]
-inspired : [
+==END==
+
+emotion : inspired
 activated
 motivated
 eager
@@ -354,15 +358,4 @@ goodbye
 right
 safe
 capable
-]
-point : [
-good
-bad
-medium
-worst
-best
-how
-point
-could
-be
-]
+==END==

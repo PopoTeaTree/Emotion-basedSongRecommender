@@ -46,7 +46,7 @@ There must be something in the water
 Cause everyday it's getting colder
 And if only I could hold you
 You'd keep my head from going under
-=ENDSONG=
+==END==
 Song : Falling
 Lyrics :
 I'm in my bed
@@ -109,7 +109,7 @@ What if I'm someone you won't talk about?
 I'm falling again
 I'm falling again
 I'm falling
-=ENDSONG=
+==END==
 Song : Happy
 Lyrics :
 It might seem crazy what I'm about to say
@@ -189,7 +189,7 @@ Clap along if you feel like happiness is the truth
 Clap along if you know what happiness is to you
 (Because I'm happy)
 Clap along if you feel like that's what you wanna do
-=ENDSONG=
+==END==
 Song : Go For G!
 Lyrics :
 Gorillas in the jungle
@@ -213,7 +213,7 @@ Go go go go for G
 Go go go go for G
 You'll feel glorious, generous, gleeful and great
 When you go go go go for G
-=ENDSONG=
+==END==
 Song : ...As The Future Repeats Today
 Lyrics :
 For so long I tried to be like you,
@@ -260,7 +260,7 @@ Down and troubled, in search for better days
 Back to the beginning, I'm at the end again
 All my time, compressed to itching moments
 as the future repeats today
-=ENDSONG=
+==END==
 Song : Love
 Lyrics :
 Pitch black, sparkling
@@ -301,7 +301,7 @@ From the world silence in the dark
 Silently rid me of pain
 Forever, give to me your name
 Love...
-=ENDSONG=
+==END==
 Song : Jellyfish
 Lyrics :
 Here comes that ten you've been yearning for
@@ -333,7 +333,7 @@ Jellyfish, jellyfish
 I'm scared oj jealousy, jealousy
 And yet I wanna swim in a sea
 That's full of ah, ah, ah
-=ENDSONG=
+==END==
 Song : Your Cure
 Lyrics :
 Somehow we fell in
@@ -370,7 +370,7 @@ When I was so sure
 That you were my cure
 That I was your cure
 That you were my cure
-=ENDSONG=
+==END==
 Song : She And I
 Lyrics :
 Tread upon me lightly
@@ -426,7 +426,7 @@ Morning rush hour I can see
 She used her eyes but she saw me
 Euphoric streaks upon the sky
 They celebrate she and I
-=ENDSONG=
+==END==
 Song : I'm Blessed
 Lyrics :
 
@@ -490,7 +490,7 @@ I'm blessed, I'm blessed, I'm blessed
 I'm blessed, I'm blessed, I'm blessed
 I'm blessed, I'm blessed, I'm blessed
 Oh, oh, oh, I'm blessed
-=ENDSONG=
+==END==
 Song : Scandal
 Lyrics :
 Scandal - now you've left me all the world's gonna know
@@ -529,7 +529,7 @@ Deeper and deeper and deeper inside
 
 Scandal
 Scandal
-=ENDSONG=
+==END==
 Song : Crazy
 Lyrics :
 I remember when, I remember, I remember when I lost my mind
@@ -573,7 +573,7 @@ Maybe we're crazy
 Probably
 
 Uh, uh
-=ENDSONG=
+==END==
 Song : Love Me Like You Do
 Lyrics :
 You're the light, you're the night
@@ -626,7 +626,7 @@ Love me like you do, la-la-love me like you do (like you do)
 Love me like you do, la-la-love me like you do (oh)
 Touch me like you do, ta-ta-touch me like you do
 What are you waiting for?
-=ENDSONG=
+==END==
 Song : Gotham
 Lyrics :
 Where is your god?
@@ -678,7 +678,7 @@ Their wings are broken
 Covetous nature
 Far beyond repair
 This city, this city is evil
-=ENDSONG=
+==END==
 Song : I Really Like You
 Lyrics :
 I really wanna stop
@@ -749,7 +749,7 @@ And I want you. Do you want me? Do you want me too?
 (Yeah, I need to tell you something)
 I really really really really really really like you
 And I want you. Do you want me? Do you want me too?
-=ENDSONG=
+==END==
 Song : Rather Be
 Lyrics :
 Oh, Woah, Ooh, ooh
@@ -805,7 +805,7 @@ N-n-no, no, no, no place I'd rather be
 N-n-no, no, no, no place I'd rather be
 
 When I am with you, there's no place I'd rather be
-=ENDSONG=
+==END==
 Song : Perfect
 Lyrics :
 I found a love for me
@@ -861,7 +861,7 @@ Now I know I have met an angel in person
 And she looks perfect
 I don't deserve this
 You look perfect tonight
-=ENDSONG=
+==END==
 Song : Inspired
 Lyrics :
 I'm writing down my dreams,
@@ -916,7 +916,7 @@ But we hold the key to change
 But how can we escape
 All the fear and all the hate?
 Is anyone watching us down here?
-=ENDSONG=
+==END==
 Song : What Makes You Beautiful
 Lyrics :
 [Liam:]
@@ -1011,7 +1011,7 @@ Oh oh
 
 [Harry:]
 That's what makes you beautiful
-=ENDSONG=
+==END==
 Song : She's On My Mind
 Lyrics :
 She's on my mind, she's on my mind
@@ -1087,7 +1087,7 @@ She's on my mind, she's on my mind
 She's on my mind, she's on my mind
 I can't sleep at night
 'Cause she ain't by my side
-=ENDSONG=
+==END==
 Song : Kiss Me
 Lyrics :
 One, two, three, four
@@ -1149,7 +1149,7 @@ You wanna be loved
 This feels like falling in love
 Falling in love
 We're falling in love
-=ENDSONG=
+==END==
 Song : Jealous
 Lyrics :
 I don't like the way he's looking at you
@@ -1228,7 +1228,7 @@ Oh (that's why)
 I still get jealous
 Oh (that's why)
 I still get jealous
-=ENDSONG=
+==END==
 Song : Disappointed
 Lyrics :
 [Diddy:]
@@ -1327,7 +1327,7 @@ The shit you rockin' and the chicks you knockin' - I'm disappointed
 Niggas watchin' other men's pockets - I'm disappointed
 Remember that a real nigga told you - I'm disappointed
 You disregarded the shit I showed you - I'm disappointed
-=ENDSONG=
+==END==
 Song : U Have It All
 Lyrics :
 I've seen you here before
@@ -1398,7 +1398,7 @@ I don't wanna leave you, cause you have it all
 I know when you need me, you don't have to call
 Believe me, I know
 Believe me, I know
-=ENDSONG=
+==END==
 Song : Ain't It Funny (Remix)
 Lyrics :
 [Ja Rule:]
@@ -1499,7 +1499,7 @@ Is that your girlfriend
 [Ja Rule & J.Lo:]
 But maybe we can be friends
 La da da da da da
-=ENDSONG=
+==END==
 Song : Wicked Love
 Lyrics :
 Welcome to temptation
@@ -1557,7 +1557,7 @@ Gimme love, wicked love
 The naked child I'm fantasizing of
 It ain't love, no, it's just lust
 Cause tonight all I want's your wicked love
-=ENDSONG=
+==END==
 Song : Contrary Mary
 Lyrics :
 Contrary Mary
@@ -1610,7 +1610,7 @@ Hey hey hey - Mary Mary
 Hey hey hey - Mary Mary
 
 Hey hey hey - Ahhhhhhhhhhhhh
-=ENDSONG=
+==END==
 Song : Love Sadistic
 Lyrics :
 If it ain't worth it when you see me love you
@@ -1663,7 +1663,7 @@ Love sadistic, you're so vicious
 The way you got a hold on me
 It's all in the way that..
 It's all in the way that you smile
-=ENDSONG=
+==END==
 Song : Sunny
 Lyrics :
 Sunny, yesterday my life was filled with rain
@@ -1704,7 +1704,7 @@ I love you
 I love you
 I love you
 I love you
-=ENDSONG=
+==END==
 Song : Dejected
 Lyrics :
 You swept me under the bed
@@ -1761,7 +1761,7 @@ Abusing me again
 Abusing me again
 This life is so unreal
 Dejected rejected
-=ENDSONG=
+==END==
 Song : Safe and Sound
 Lyrics :
 I remember tears streaming down your face
@@ -1803,7 +1803,7 @@ Come morning light,
 You and I'll be safe and sound...
 
 Ooh, ooh, ooh, ooh, oh, oh
-=ENDSONG=
+==END==
 Song : Motivated
 Lyrics :
 [Intro - Project Pat]
@@ -1889,7 +1889,7 @@ I'm motivated by the haters
 I'm motivated by the haters
 I'm motivated by the haters
 I'm motivated by the haters
-=ENDSONG=
+==END==
 Song : Comfort Crowd
 Lyrics :
 This hurt that I'm holding's getting heavy
@@ -1945,7 +1945,7 @@ Yeah, I don't care what song that we play
 Or mess that we make
 Just company now
 Comfort crowd
-=ENDSONG=
+==END==
 Song : Grateful
 Lyrics :
 Grateful, so grateful, my heart is full of joy
@@ -2023,7 +2023,7 @@ I give to you all praise, oh Lord, I give you praise
 I give to you all praise, oh Lord, I give you praise
 I give to you all praise, oh Lord, I give you praise
 I give to you all praise, oh Lord, I give you praise
-=ENDSONG=
+==END==
 Song : Love The Way You Lie
 Lyrics :
 [Rihanna:]
@@ -2099,7 +2099,7 @@ Oh, I love the way you lie
 I love the way you lie
 I love the way you lie
 I love the way you lie
-=ENDSONG=
+==END==
 Song : Only Love Can Hurt Like This
 Lyrics :
 I tell myself you don't mean a thing,
@@ -2147,7 +2147,7 @@ Save me, save me,
 Only love, only love,
 'Cause only love can hurt like this
 And it must have been a deadly kiss
-=ENDSONG=
+==END==
 Song : Lights Glowing
 Lyrics :
 Every single block, all these fucking cops
@@ -2240,7 +2240,7 @@ Glow, glow, glow, glow
 All I see is lights glowing, glowing
 Glow, yea yea yea
 All I see is lights glowing
-=ENDSONG=
+==END==
 Song : Bitter
 Lyrics :
 You know there's one single to root right? Hebrews 12:15 check it out
@@ -2311,7 +2311,7 @@ I don't wanna be bitter, bitter, bitter
 I don't wanna be bitter, bitter, bitter
 I don't wanna be bitter, bitter, bitter
 I don't wanna be bitter... so take it all away
-=ENDSONG=
+==END==
 Song : L.A. State Of Mind
 Lyrics :
 I woke up today to a sun-bleached sky
@@ -2380,7 +2380,7 @@ Summertime
 Carefree summertime
 Summertime
 Carefree summertime
-=ENDSONG=
+==END==
 Song : Terrible Lie
 Lyrics :
 Hey God
@@ -2460,7 +2460,7 @@ I need someone to hold on to (I give you everything.)
 I need someone to hold on to (My sweet everything.)
 I need someone I need someone (I give you everything.)
 I need someone to hold on to. (My sweet everything.)
-=ENDSONG=
+==END==
 Song : Alone Again
 Lyrics :
 Take off my disguise
@@ -2490,8 +2490,8 @@ Count it up, it's all for you, count it up
 Count it up, it's all for you, count it up
 I don't know if I can be alone again
 I don't know if I can be alone again
-=ENDSONG=
-Song : Sweet Emotion
+==END==
+Song : Sweet emotion.Emotion
 Lyrics :
 Sweet emotion
 Sweet emotion
@@ -2519,7 +2519,7 @@ Standin' in the front just a-shakin' your ass
 I take you backstage you can drink from my glass
 I talk about something you can sure understand
 'Cause a month on the road and I'll be eatin' from your hand
-=ENDSONG=
+==END==
 Song : Listener Supported
 Lyrics :
 Six foot six above sea level
@@ -2560,7 +2560,7 @@ The bureaucratic office sends you merry-go-rounding
 While the KKK police the streets by blood hounding
 Interest on the credit card just keeps on compounding
 But the FCC can neva shut this pirate sound down
-=ENDSONG=
+==END==
 Song : Colorful
 Lyrics :
 Oh why do you look upset? The sky turns yellow
@@ -2670,7 +2670,7 @@ Kkamake eodupgiman hadeon sesange nae nuneul gameuryeodeon geu sungan
 You make my life colorful
 
 Make my life colorful
-=ENDSONG=
+==END==
 Song : Enjoy Every Second
 Lyrics :
 This one's dedicated to everybody out there
@@ -2765,7 +2765,7 @@ It doesn't matter if I fall down or if I fly
 Enjoy every second you feel
 And keep it real y'all
 Keep it real!
-=ENDSONG=
+==END==
 Song : Foot Prints
 Lyrics :
 My eyes see the coming revolution
@@ -2837,7 +2837,7 @@ My eyes see the glory of the world
 
 Don't forget to leave good footprints behind
 Don't forget to leave good footprints behind
-=ENDSONG=
+==END==
 Song : Everything Louder Than Everything Else
 Lyrics :
 I know that I will never be politically correct
@@ -2925,7 +2925,7 @@ Everything louder than everything else!
 Everything louder than - everything else!
 
 [Repeat to fade and instrumental coda]
-=ENDSONG=
+==END==
 Song : Condemn The Hive
 Lyrics :
 Soon come a burning,
@@ -2973,7 +2973,7 @@ Bloated with pride, you're privileged once,
 You're walking the line, your life's fucking done
 Bloated with pride, you're privileged once,
 You're privileged once.
-=ENDSONG=
+==END==
 Song : Natural Mystic
 Lyrics :
 There's a natural mystic blowing through the air
@@ -3011,5 +3011,5 @@ There's a natural mystic blowing through the air
 Such a natural mystic blowing through the air
 Such a natural mystic blowing through the air
 Such a natural mystic blowing through the air
-=ENDSONG=
+==END==
 

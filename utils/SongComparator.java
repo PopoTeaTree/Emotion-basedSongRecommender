@@ -1,5 +1,5 @@
-/**
- *  SongComparator.java
+package utils; /**
+ *  utils.SongComparator.java
  *
  *  Simple comparator to compare emotion score of
  *  songs
@@ -10,6 +10,8 @@
  *
  *  19 May 2020
  */
+import song.Song;
+
 import java.util.Comparator;
 public class SongComparator implements Comparator<Song>
 {
@@ -40,7 +42,7 @@ public class SongComparator implements Comparator<Song>
      * otherwise call function to compare songs by id.
      */
     @Override
-    public int compare(Song song1,Song song2) {
+    public int compare(Song song1, Song song2) {
         if(song2.getScore(currentEmotion)>song1.getScore(currentEmotion))
             return 1;
         else if(song1.getScore(currentEmotion)>song2.getScore(currentEmotion))

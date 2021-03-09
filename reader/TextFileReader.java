@@ -1,5 +1,5 @@
-/**
- *   TextFileReader.java
+package reader; /**
+ *   reader.TextFileReader.java
  *
  *   Reads a text file line by line
  *
@@ -24,7 +24,7 @@ import java.io.IOException;
 public class TextFileReader
 {
     /** Reader object to access the file */
-    private BufferedReader reader = null;
+    private static BufferedReader reader = null;
 
     /**
     * Open a text file, if possible. It will be closed
@@ -60,7 +60,7 @@ public class TextFileReader
     * Try to read a line from the open file.
     * @return Line as a string, or null if an error occurred.
     */
-    public String getNextLine()
+    public static String getNextLine()
     {
         String lineRead = null;
         try

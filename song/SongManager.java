@@ -1,5 +1,5 @@
-/**
- *  SongManager.java
+package song; /**
+ *  song.SongManager.java
  *
  *  This class represents organization to manage songs.
  *  It provides functionality to get songs in many ways.
@@ -10,6 +10,8 @@
  *
  *  19 May 2020
  */
+import reader.SongReader;
+
 import java.util.ArrayList;
 
 public class SongManager
@@ -17,7 +19,7 @@ public class SongManager
     /** collection of song managed by manager */
     private SongCollection songs;
 
-    /** instance of SongManager for managing songs */
+    /** instance of song.SongManager for managing songs */
     private static SongManager songManager= null;
 
     /**  reader that knows how to read and parse the song file*/

@@ -1,5 +1,5 @@
-/**
- *  Emotion.java
+package emotion; /**
+ *  emotion.Emotion.java
  *
  *  Represents an emotion which words related
  *
@@ -14,7 +14,7 @@ import java.util.ArrayList;
 
 public class Emotion
 {
-    /** Emotion category */
+    /** emotion.Emotion category */
     private String emotion = null;
     /** Words associated with emotion category */
     private ArrayList<String> words = null;

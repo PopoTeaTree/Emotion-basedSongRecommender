@@ -1,6 +1,6 @@
-/**
+package utils; /**
  *
- *  Display.java
+ *  utils.Display.java
  *
  *  Help to display data like songs, emotions or
  *  even lyrics.
@@ -11,6 +11,9 @@
  *
  *  19 May 2020
  */
+
+import emotion.Emotion;
+import song.Song;
 
 import java.util.ArrayList;
 
@@ -31,7 +34,7 @@ public class Display
         /* list contains song(s) */
         else
         {
-            System.out.println(">> Songs List <<");
+            System.out.println(">> song.Song List <<");
             int i = 0;
             for (Song song:songs)
             {
@@ -49,12 +52,12 @@ public class Display
     {
         if(allEmotions==null || allEmotions.size()==0)
         {
-            System.out.println("There are no emotions stored in the system");
+            System.out.println("No emotions available");
         }
         /* there exist some emotion(s) in the system */
         else
         {
-            System.out.println(">> Emotion List <<");
+            System.out.println(">> emotion.Emotion List <<");
             for (int counter = 0; counter < allEmotions.size(); counter++)
             {
                 System.out.println((counter+1)+ " " + allEmotions.get(counter).getEmotion());
@@ -64,25 +67,24 @@ public class Display
 
     /**
      * Print lyrics of song provided
-     * @param currentSong song to print lyrics
-     *
+     * @param song song to print lyrics
      */
-    public static void printLyrics(Song currentSong)
+    public static void printLyrics(Song song)
     {
-            if(currentSong!=null)
+            if(song!=null)
             {
-                ArrayList<String> currentLyrics = currentSong.getLyrics();
+                ArrayList<String> currentLyrics = song.getLyrics();
                 /* song has lyrics */
                 if(currentLyrics!=null && currentLyrics.size()>0)
                 {
-                    System.out.println(">> Lyrics of " + currentSong.getTitle() + " <<");
+                    System.out.println(">> Lyrics of " + song.getTitle() + " <<");
                     for (String currentPart : currentLyrics) {
                         System.out.println(currentPart);
                     }
                 }
                 else
                 {
-                    System.out.println("There are no lyrics for " + currentSong.getTitle());
+                    System.out.println("There are no lyrics for " + song.getTitle());
                 }
             }
             else

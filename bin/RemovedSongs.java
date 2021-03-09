@@ -1,7 +1,7 @@
-/**
- *  RemovedSongs.java
+package bin; /**
+ *  bin.RemovedSongs.java
  *
- *  This class represents RemovedSongs object which encapsulates
+ *  This class represents bin.RemovedSongs object which encapsulates
  *  emotion and song titles removed from the emotion.
  *
  *  Created by

@@ -12,11 +12,16 @@
  *  19 May 2020
  */
 
+import emotion.Emotion;
+import emotion.EmotionManager;
+import song.Song;
+import song.SongManager;
+
 import java.util.ArrayList;
 
 public class Facilitator
 {
-    /** SongManager instance to help dealing with songs. */
+    /** song.SongManager instance to help dealing with songs. */
     private SongManager songManager = null;
 
     /**
@@ -25,7 +30,7 @@ public class Facilitator
      */
     private SongEmotions songEmotions = null;
 
-    /** EmotionManager instance to help dealing with emotions. */
+    /** emotion.EmotionManager instance to help dealing with emotions. */
     private EmotionManager emotionManager = null;
 
     /** Facilitator instance which let other classes use its methods*/

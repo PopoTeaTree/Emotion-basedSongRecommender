@@ -10,6 +10,12 @@
  *
  *  19 May 2020
  */
+
+import emotion.Emotion;
+import song.Song;
+import utils.Display;
+import utils.Utils;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -21,7 +27,7 @@ public class UI
     private static Scanner inputLine = new Scanner(System.in);
 
     /**
-     * Display options and get the selected option
+     * utils.Display options and get the selected option
      * from user
      * @return selected option
      */
@@ -56,7 +62,7 @@ public class UI
     }
 
     /**
-     * Display message and get input related to message
+     * utils.Display message and get input related to message
      * from user
      * @param message message to display
      * @return user input
@@ -181,7 +187,7 @@ public class UI
         /* validate emotion input. Ask until get valid input (if needed) */
         while(!emotion.matches("[a-zA-Z.!\\- ']+") || emotion.length()==0)
         {
-            System.out.println("Emotion is not a valid word");
+            System.out.println("emotion.Emotion is not a valid word");
             emotion = getInputString("Please enter emotion to add again").trim();
         }
         /* get words related to emotion */
@@ -190,7 +196,7 @@ public class UI
         boolean bOk = facilitator.addEmotion(newEmotion);
         if(bOk)
         {
-            System.out.println("Emotion added successfully");
+            System.out.println("emotion.Emotion added successfully");
         }
         else
         {
@@ -234,7 +240,7 @@ public class UI
                     boolean succeed = facilitator.removeSongFromCategory(emotion,songs.get(option));
                     if(succeed)
                     {
-                        System.out.println("Song removed from emotion category successfully");
+                        System.out.println("song.Song removed from emotion category successfully");
                     }
                     else
                     {

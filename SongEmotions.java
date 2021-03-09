@@ -11,6 +11,11 @@
  *
  *  19 May 2020
  */
+import bin.RemovedSongs;
+import reader.RemovedSongReader;
+import song.Song;
+import utils.SongComparator;
+
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -185,7 +190,7 @@ public class SongEmotions
             if(!isRemovedSong(emotion,song))
             {
                 /* to calculate emotion score */
-                song.countScore(emotion,words);
+                song.countEmotionScore(emotion,words);
                 if(song.getScore(emotion)>0.04)
                 {
                     /* emotion already exist */
@@ -218,7 +223,7 @@ public class SongEmotions
         boolean succeed = false;
         try
         {
-            FileWriter writer = new FileWriter("removed.txt");
+            FileWriter writer = new FileWriter("data/removed.txt");
             ArrayList<String> emotions = new ArrayList<>(songsRemoved.keySet());
             /* write emotion and removed song */
             for (String emotion:emotions)

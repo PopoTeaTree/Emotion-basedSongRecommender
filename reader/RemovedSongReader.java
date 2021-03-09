@@ -1,4 +1,4 @@
-/**
+package reader; /**
  * Class to read info about removed songs from a file
  * and create RemovedSong object.
  *
@@ -8,6 +8,8 @@
  *
  *  19 May 2020
  */
+
+import bin.RemovedSongs;
 
 import java.util.ArrayList;
 

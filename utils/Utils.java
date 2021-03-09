@@ -1,7 +1,9 @@
+package utils;
+
 import java.util.regex.Pattern;
 
 /*
- *  Utils.java
+ *  utils.Utils.java
  *
  *  This class is helper class for UI to convert
  *  user input or check it.
@@ -90,5 +92,21 @@ public class Utils
     public static boolean isValidChoice(int choice, int limit)
     {
         return choice > 0 && choice <= limit;
+    }
+
+    /**
+     * Counts a word occurrence in word list
+     * @param word word to be searched
+     * @param wordList list of words to search
+     * @return a word's occurrence in specified word list
+     */
+    public static int getWordCount(String word, String[] wordList){
+        int count = 0;
+        for(String aWord: wordList){
+            if(word.compareTo(aWord) == 0){
+                count++;
+            }
+        }
+        return  count;
     }
 }

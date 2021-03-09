@@ -1,5 +1,5 @@
-/**
- * EmotionReader.java
+package reader; /**
+ * reader.EmotionReader.java
  * Class to read information about emotions from a file
  * and create emotion objects for further use.
  *
@@ -9,6 +9,8 @@
  *
  *  19 May 2020
  */
+import emotion.Emotion;
+
 import java.util.ArrayList;
 
 

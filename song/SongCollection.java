@@ -1,7 +1,7 @@
-/**
- *  SongCollection.java
+package song; /**
+ *  song.SongCollection.java
  *
- *  A SongCollection is a group of songs which provides
+ *  A song.SongCollection is a group of songs which provides
  *  functionality for getting songs
  *
  *  Created by
@@ -10,6 +10,8 @@
  *
  *  19 May 2020
  */
+import song.Song;
+
 import java.util.ArrayList;
 
 public class SongCollection

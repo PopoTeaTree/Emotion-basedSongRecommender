@@ -1,5 +1,5 @@
-/**
- *  EmotionManager.java
+package emotion; /**
+ *  emotion.EmotionManager.java
  *
  *  Manages emotions and provide information related
  *  to emotions.
@@ -10,14 +10,15 @@
  *
  *  19 May 2020
  */
+import reader.EmotionReader;
+
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.HashMap;
 
 public class EmotionManager
 {
-    /** instance of  EmotionManager for managing emotion */
+    /** instance of  emotion.EmotionManager for managing emotion */
     private static EmotionManager emotionManager= null;
     /** reader that knows how to read and parse the emotion file  */
     private EmotionReader reader;
@@ -121,7 +122,7 @@ public class EmotionManager
         try
         {
             /* use file writer to help writing */
-            FileWriter writer = new FileWriter("emotions.txt");
+            FileWriter writer = new FileWriter("data/emotions.txt");
             for (Emotion emotion: allEmotions)
             {
                 ArrayList<String> words = emotion.getWords();
