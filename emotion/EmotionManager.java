@@ -1,4 +1,5 @@
-package emotion; /**
+package emotion;
+/**
  *  emotion.EmotionManager.java
  *
  *  Manages emotions and provide information related
@@ -10,7 +11,8 @@ package emotion; /**
  *
  *  19 May 2020
  */
-import reader.EmotionReader;
+import dto.ReaderDTO;
+import reader.CustomReader;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -20,10 +22,11 @@ public class EmotionManager
 {
     /** instance of  emotion.EmotionManager for managing emotion */
     private static EmotionManager emotionManager= null;
-    /** reader that knows how to read and parse the emotion file  */
-    private EmotionReader reader;
     /** collection of all emotions */
     private ArrayList<Emotion> allEmotions;
+
+    private final String emotionPattern = "Emotion :";
+    private final String wordsPattern = "Words :";
 
     /**
      * Constructor class which creates ArrayList to store emotion information
@@ -55,23 +58,26 @@ public class EmotionManager
      */
      public boolean readEmotions(String fileName)
      {
-         boolean result = false;
-         reader = new EmotionReader();
          /* trying to open input file */
-         if (!reader.open(fileName))
+         if (!CustomReader.open(fileName))
          {
              System.out.println("Error opening emotion file " + fileName);
          }
          /* emotion read from file */
-         Emotion nextEmotion;
+         ReaderDTO dataItem;
          /* loop to get emotion read from file */
-         while ((nextEmotion = reader.readEmotions()) != null)
+         while ((dataItem = CustomReader.readData(emotionPattern, wordsPattern)) != null)
          {
-             /* adding emotion to array list */
-             addEmotion(nextEmotion);
-             result = true;
+             String emotion = dataItem.getTitle();
+             ArrayList<String> words = dataItem.getDetails();
+             if(emotion == null || words == null || words.size() == 0){
+                 System.out.println("Invalid emotion data ==> skipping emotion");
+                 continue;
+             }
+             allEmotions.add(new Emotion(emotion, words));
          }
-         return  result;
+         CustomReader.close();
+         return allEmotions.size() > 0;
      }
 
     /**

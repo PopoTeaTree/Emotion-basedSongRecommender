@@ -45,7 +45,7 @@ There must be something in the water
 Cause everyday it's getting colder
 And if only I could hold you
 You'd keep my head from going under
-=ENDSONG=
+==END==
 
 Song : Falling
 Lyrics :
@@ -109,4 +109,4 @@ What if I'm someone you won't talk about?
 I'm falling again
 I'm falling again
 I'm falling
-=ENDSONG=
+==END==

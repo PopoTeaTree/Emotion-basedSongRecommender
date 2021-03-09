@@ -1,9 +1,13 @@
-emotion : love
+
+Emotion : love
+Words :
 like
 mma
 ==END==
 
-emotion : relaxed
+
+Emotion : relaxed
+Words :
 calm
 at ease
 comfortable
@@ -60,7 +64,9 @@ stoic
 aligned
 ==END==
 
-emotion : jealous
+
+Emotion : jealous
+Words :
 anxious
 apprehensive
 attentive
@@ -92,7 +98,9 @@ possessive
 resentful
 ==END==
 
-emotion : lively
+
+Emotion : lively
+Words :
 love
 live
 do
@@ -100,7 +108,9 @@ want
 wait
 ==END==
 
-emotion : happy
+
+Emotion : happy
+Words :
 dance
 happy
 enjoy
@@ -168,7 +178,9 @@ beautiful
 glowing
 ==END==
 
-emotion : sad
+
+Emotion : sad
+Words :
 alone
 lie
 deadly
@@ -213,7 +225,9 @@ hurt
 world-weary
 ==END==
 
-emotion : lol
+
+Emotion : lol
+Words :
 --
 point
 laugh
@@ -221,7 +235,9 @@ ha
 lol
 ==END==
 
-emotion : angry
+
+Emotion : angry
+Words :
 crazy
 mad
 ordeal
@@ -297,7 +313,9 @@ unjustified
 violated
 ==END==
 
-emotion : inspired
+
+Emotion : inspired
+Words :
 activated
 motivated
 eager

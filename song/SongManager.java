@@ -10,7 +10,8 @@ package song; /**
  *
  *  19 May 2020
  */
-import reader.SongReader;
+import dto.ReaderDTO;
+import reader.CustomReader;
 
 import java.util.ArrayList;
 
@@ -22,8 +23,8 @@ public class SongManager
     /** instance of song.SongManager for managing songs */
     private static SongManager songManager= null;
 
-    /**  reader that knows how to read and parse the song file*/
-    private SongReader reader;
+    private final String titlePattern = "Song :";
+    private final String lyricsPattern = "Lyrics :";
 
 
     /**
@@ -87,20 +88,26 @@ public class SongManager
     public boolean readSongs(String fileName)
     {
         boolean result = false;
-        reader = new SongReader();
         /* trying to open song file */
-        if (!reader.open(fileName))
+        if (!CustomReader.open(fileName))
         {
             System.out.println("Error opening song file "+fileName);
             System.exit(1);
         }
-        Song nextSong = null;
+        ReaderDTO dataItem = null;
         /* reading songs from song file */
-        while ((nextSong = reader.readSong()) != null)
+        while ((dataItem = CustomReader.readData(titlePattern, lyricsPattern)) != null)
         {
-                songs.addSong(nextSong);
+            String songTitle = dataItem.getTitle();
+            ArrayList<String> lyrics = dataItem.getDetails();
+            if(songTitle == null || lyrics == null || lyrics.size() == 0){
+                System.out.println("Invalid song data ==> skipping song");
+                continue;
+            }
+            songs.addSong(new Song(songTitle,lyrics));
         }
-        return true;
+        CustomReader.close();
+        return songs.getAllSongs().size() > 0;
     }
 
 

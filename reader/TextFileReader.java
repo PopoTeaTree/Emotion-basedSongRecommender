@@ -32,7 +32,7 @@ public class TextFileReader
     * @param filename   File to open
     * @return true if successfully opened, false if not found.
     */
-    public boolean open(String filename)
+    public static boolean open(String filename)
     {
         boolean bOk = true;
         try
@@ -80,7 +80,7 @@ public class TextFileReader
         }
         return lineRead;
     }
-    public boolean isEmptyLine(String line)
+    public static boolean isEmptyLine(String line)
     {
         boolean isEmpty = line.length()==0;
         if(isEmpty)
@@ -93,7 +93,7 @@ public class TextFileReader
     /**
      * Explicitly close the reader to free resources
      */
-    public void close()
+    public static void close()
     {
         try
         {
